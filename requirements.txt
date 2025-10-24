@@ -1,0 +1,17 @@
+# Core dependencies
+streamlit==1.39.0
+pandas==2.2.3
+numpy==1.26.4
+
+# Optional but recommended for metrics, visualization, and ML
+scikit-learn==1.5.2
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# For compatibility and general utility
+altair==5.3.0
+pyarrow==17.0.0
+protobuf==5.27.3
+
+# Local module dependency (not installed via pip)
+# Ensure eval.py is present in the project directory
